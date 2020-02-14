@@ -1,0 +1,183 @@
+/* CSS Document */
+.main-text {font-family:Font Name;
+font-size:1.125rem;}
+.author-text{font-family:Font Name;
+color:HEXVALUE;
+font-size:1.5rem;}
+body{
+	margin:0;
+	text-align:left;
+	font-family:"Roboto","Poppins",
+	"Montserrat"
+}
+.main-text{
+	font-family:"Roboto";
+	font-size:1.125rem;
+}
+.author-text{
+	font-family:"Poppins";
+	color:#2E2C2C;
+	font-size:1.5rem;
+}
+.top-container{
+	background-color: #E4FPF5;
+	position: relative;
+	padding-top: 100px;
+	text-align:center;
+}
+.profile-container{
+	background-color:#fff;
+	text-align:center;
+}
+
+.middle-container{
+	position:relative;
+	text-align:center;
+	background-color:#ED6E00;
+	padding-top:150px;
+	padding-bottom:150px;
+}
+.bottom-container{
+	padding:2rem 1rem;
+	text-align:center;
+	background-color:#fff;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.col_one,
+.col_two,
+.col_three {
+	display:flex;
+	flex-direction:column;
+}
+/*========================
+COMMUNITY SECTION
+==========================*/
+.community-copy,
+.monthly-copy,
+.why-copy {
+	padding: 30px;
+}
+.community-copy{
+	background-color:#fff;
+	border-radius: 8px 8px 0 0;
+}
+.community-copy h1{
+	font-size:1.5rem;
+	color:  hsla(218,88%,39%,1.00);
+}
+.community-copy h2{
+	font-size: 1.3rem;
+	color:  hsla(218,88%,39%,1.00);
+	margin:15px 0;
+	font-weight:300;
+}
+.community-copy p {
+	font-size: 1 rem;
+	color:hsl(218, 22%, 67%);
+	line-height:1.8;
+}
+/*========================
+monthly subscription section
+==========================*/
+.monthly-copy{
+	background-color: hsla(218,88%,39%,1.00);
+	color: #fff;
+}
+.monthly-copy h2,
+.why-copy h2 {
+	font-weight:300;
+	font-size: 1.2rem;
+}
+.monthly-copy p {
+	margin:15px 0;
+	font-weight:300;
+}
+.monthly-copt span {
+	font-size: 2rem;
+	margin-right: 10px;
+	font-weight: 700;
+}
+.monthly-copy a{
+	display: block;
+	margin-top: 25px;
+	background-color:  hsla(218,88%,39%,1.00);
+	color:#fff;
+	width:100%;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+	box-shadow: 0px 5px 12px rgba(0,0,0,0.3);
+}
+/*==========================
+Why section
+============================*/
+.why-copy{
+	background-color: #4abebd;
+	color:#fff;
+	border-radius: 0 0 8px 8px;
+}
+.why-copy h2 {
+	margin-bottom: 15px;
+}
+.why-copy li{
+	list-style: none;
+	padding: 5px 0;
+	font-weight: 300;
+}
+footer{
+	padding: 1rem;
+}
+footer p{
+	font-size: 0.8rem;
+	color: #000;
+}
+footer span{
+	color:  hsla(218,88%,39%,1.00);
+}
+@media screen and (min-width: 768px) {
+	.main{
+		height:100vh;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		padding:0;
+	}
+	.container{
+		max-width: 800px;
+		align-items: center;
+	}
+	.community-copy{
+		padding: 3rem;
+	}
+	.community-copy p {
+		width: 76%;
+	}
+	.monthly-copy,
+	.why-copy {
+		padding: 3rem 2rem 2rem 3rem;
+	}
+	.col_two,
+	.col_three{
+		flex-basis: 50%;
+	}
+	.monthly-copy{
+		border-radius:0 0 0 8px;
+	}
+	.flex-pair{
+		display: flex;
+		flex-direction: row;
+	}
+	.why-copy{
+		border-radius:0 0 8px 0;
+	}	
+}
+.bottom-container{
+	position:relative;
+	text-align:center;
+}
+.blog-container{
+	width:1140px;
+	margin:20px auto 0 auto;
+}
